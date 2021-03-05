@@ -29,6 +29,7 @@ function createEvent() {
         })
         .then(({ data }) => {
             console.log(data)
+            console.log('Event Created!')
         })
 }
 
@@ -65,6 +66,7 @@ function updateEvent() {
         })
         .then(({ data }) => {
             console.log(data)
+            console.log('Event Updated!')
         })
 }
 
