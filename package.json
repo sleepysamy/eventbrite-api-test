@@ -1,0 +1,26 @@
+{
+  "name": "eventbrite-test",
+  "version": "1.0.0",
+  "description": "testing event brite api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleepysamy/eventbrite-api-test.git"
+  },
+  "author": "samantha carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleepysamy/eventbrite-api-test/issues"
+  },
+  "homepage": "https://github.com/sleepysamy/eventbrite-api-test#readme",
+  "devDependencies": {
+    "cypress": "^6.6.0"
+  },
+  "dependencies": {
+    "@bearer/node": "^2.2.0",
+    "@bearer/node-agent": "^3.3.3"
+  }
+}
